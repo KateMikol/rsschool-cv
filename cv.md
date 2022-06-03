@@ -19,4 +19,17 @@ I want to create new and useful things and it is the main reason why I'm here
 * HTML5 (Basic)
 * Python (Basic)
 
+### Code example
+
+### Experience 
+ Power engineer (since 2018)
+
+### Education
+
+* Bachelor, Belarussian National Technical University, Power Engineer
+* Master, Belarussian National Technical University, Power Engineer
+* Python for begginers (https://stepik.org/course/58852/syllabus)
+
+### Language
+English level B1 (Intermediate)
 
