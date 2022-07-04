@@ -161,11 +161,12 @@ border: 0px;
 
   /*Intro styles start*/
 .intro{
-    height: 100vh;
+    height:75vh ;
     background: url(../img/garrett-parker-DlkF4-dbCOU-unsplash.png) no-repeat ;*/
-} 
+   
+  } 
 
-.explore-world {
+.title {
 
   /* Explore the beauty of the World */
 position: absolute;
@@ -184,7 +185,7 @@ color: #FFFFFF;
 
 }
   
-.recieve-info {
+.intro-subtitle {
   /* Receive personalized recommendations for countries, hotels, activities and more */
 position: absolute;
 width: 723px;
@@ -200,7 +201,7 @@ line-height: 24px;
 /* identical to box height */
 color: #FFFFFF;
 }
-
+  
 .start {
   /* Plan your trip */
 position: absolute;
@@ -242,7 +243,7 @@ position: relative;
 width: 228px;
 height: 59px;
 left: 646px;
-top: -15px;
+top: -5 px;
 
 background: #0D606F;
 box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -280,7 +281,20 @@ font-weight: 400;
 font-size: 24px;
 line-height: 29px;
 color: #F2785C;
+
+background: transparent;
+border: 0;
+}
+.question::placeholder{
+  font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
 }
   /*intro styles end*/
+
+
 
 
