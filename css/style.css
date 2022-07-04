@@ -295,6 +295,130 @@ color: #F2785C;
 }
   /*intro styles end*/
 
+/*steps style starts*/
+.steps-wrap {
+  max-width: 1117px;
+  max-height: 247px;
+  background-color: #FFFFFF;
+  padding-left: 132px;
+  padding-right: 132px;
+  margin-top: 131px;
+
+}
+  
+.steps-title {
+  font-family: 'Red Hat Text';
+  font-size: 40px;
+  font-weight: 500;    
+  line-height: 53px;
+  align-items: center;
+  color:rgba(242, 120, 92, 0.7);
+
+  padding-bottom: 40px;
+ 
+  display: flex;
+  justify-content: center;
+  
+}
+
+ .steps-cards{
+  
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 100px;
+  justify-content: center;
+  
+  height: 154px;
+  width: 1177px;
+
+  font-family: Aleo;
+  font-style: regular;
+  font-size: 20px;
+  color:#0D606F;
+ }
+
+.velo-pic, .calendar-pic, .plane-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+.steps-card1, .steps-card2, .steps-card3{
+  display:flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 30px;
+
+  align-items: center;
+}
+ /*destinations style starts*/
 
 
+ .destination {
+  /*width: 2520px;
+  height: 1042px;
+  top: 1189px;
+  left: -540px;*/
+  max-width: 1440px;
+  max-height: 1042px;
+  background-color: #FFFFFF;
+  padding-left: 132px;
+  padding-right: 132px;
+  margin-top: 131px;
+  }
+
+.destination-title {
+  font-family: 'Red Hat Text';
+  font-size: 40px;
+  font-weight: 500;    
+  line-height: 53px;
+  
+  color:rgba(242, 120, 92, 0.7);
+
+  padding-bottom: 40px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-view {
+  display:flex;
+  align-content: space-between;
+  gap: 60px;
+  
+}
+.find-more-button {
+  width: 228px;
+  height: 59px;
+  font-family: 'Red Hat Text';
+  font-style: medium;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+
+          /* Auto layout */
+  top: 40px;
+
+  position:relative ;
+  left: 605px;
+  right: 605px;
+
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+
+  background: #0D606F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: 0px;
+
+}
 
