@@ -422,3 +422,142 @@ color: #F2785C;
 
 }
 
+/*destinations styles end*/
+
+
+
+
+/*stories styles starts*/
+
+
+.stories-title {
+  font-family: 'Red Hat Text';
+  font-size: 40px;
+  font-weight: 500;    
+  line-height: 53px;
+  
+  color:rgba(242, 120, 92, 0.7);
+
+  padding-bottom: 40px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-story, .second-story, .third-story, .fourth-story {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 24px;
+
+  
+  /*margin-right:  100px;
+  margin-left: 100px;*/
+  }
+ 
+ .stories-subtitle {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-size: 35px;
+    
+    color:#0D606F;
+   
+ }
+ .stories-content {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-size: 20px;
+
+  color: #0D606F;
+  text-align: justify;
+  
+
+ }
+ .read-more{
+  /*text-decoration: none;*/
+  font-family: 'Aleo';
+  font-style: normal ;
+  font-size: 20px;
+  font-weight: 600;
+
+  color: #0D606F;
+ }
+ .story{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 24px;
+  width: 760px;
+ }
+
+ .stories{
+  top: 10px;
+
+  background: url(../img/bottom-background.png) no-repeat ;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  position:relative;
+  left: 119px;
+  right: 121px;
+  }
+
+  .second-bg {
+   background-color: #ffffffc7;
+   padding: 0px;
+  }
+
+ .story-pic {
+  width: 400px;
+  height: 250px;
+  border-radius: 4px;
+  border: 4px;
+
+  color: #0D606F;
+ }
+ 
+ .travel-stories {
+  
+  margin-top: 100px;
+  display:block;
+  align-items: center;
+  max-width: 1440px;
+
+ }
+
+ .see-more-button {
+  width: 228px;
+  height: 59px;
+  font-family: 'Red Hat Text';
+  font-style: medium;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   
+         /* Auto layout */
+  top: 40px;
+
+  position:relative;
+  left: 605px;
+  right: 605px;
+
+  background: #0D606F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: 0px;
+
+}
