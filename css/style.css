@@ -156,12 +156,16 @@ border-radius: 10px;
 border: 0px;
 
 }
+
+.login:hover, .login:active, .login:focus{
+  opacity: 0.75;
+}
   /*header styles end*/
 
 
   /*Intro styles start*/
 .intro{
-    height:75vh ;
+    height: 765px;
     background: url(../img/garrett-parker-DlkF4-dbCOU-unsplash.png) no-repeat ;*/
    
   } 
@@ -250,6 +254,9 @@ box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0
 border-radius: 10px;
 border: 0px;
 }
+.start-planning:hover, .start-planning:active, .start-planning:focus{
+  opacity: 0.75;
+}
 
 .question-form {
   /* Rectangle 8 */
@@ -264,6 +271,7 @@ top: 416px;
 background: rgba(255, 255, 255, 0.7);
 border-radius: 16px;
 }
+
 
 .question {
   /* What would you like to do? */
@@ -303,6 +311,7 @@ color: #F2785C;
   padding-left: 132px;
   padding-right: 132px;
   margin-top: 131px;
+
 
 }
   
@@ -354,6 +363,17 @@ color: #F2785C;
 
   align-items: center;
 }
+.step-name{
+  text-decoration:none;
+  font-family: Aleo;
+  font-style: regular;
+  font-size: 20px;
+  color:#0D606F;
+}
+.step-name:hover, .step-name:active, .step-name:focus{
+  opacity: 0.75;
+}
+
  /*destinations style starts*/
 
 
@@ -379,18 +399,27 @@ color: #F2785C;
   color:rgba(242, 120, 92, 0.7);
 
   padding-bottom: 40px;
+  
+  width: 1440px;
  
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .country-view {
   display:flex;
   align-content: space-between;
   gap: 60px;
-  
+
+  margin-left: -520px;
+   
 }
+
+
 .find-more-button {
   width: 228px;
   height: 59px;
@@ -422,9 +451,11 @@ color: #F2785C;
 
 }
 
+.find-more-button:hover, .find-more-button:active, .find-more-button:focus{
+  opacity: 0.75;
+}
+
 /*destinations styles end*/
-
-
 
 
 /*stories styles starts*/
@@ -483,6 +514,10 @@ color: #F2785C;
 
   color: #0D606F;
  }
+
+ .read-more:hover, .read-more:focus, .read-more:active {
+  opacity: .75;
+ }
  .story{
   display: flex;
   flex-direction: column;
@@ -495,6 +530,7 @@ color: #F2785C;
   top: 10px;
 
   background: url(../img/bottom-background.png) no-repeat ;
+  height: 1335px;
 
   display: flex;
   flex-direction: column;
@@ -510,9 +546,9 @@ color: #F2785C;
   right: 121px;
   }
 
-  .second-bg {
+  .bottom-bg {
    background-color: #ffffffc7;
-   padding: 0px;
+   
   }
 
  .story-pic {
@@ -527,9 +563,10 @@ color: #F2785C;
  .travel-stories {
   
   margin-top: 100px;
-  display:block;
+  
   align-items: center;
   max-width: 1440px;
+
 
  }
 
@@ -543,7 +580,7 @@ color: #F2785C;
 
   color: #FFFFFF;
 
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -551,13 +588,74 @@ color: #F2785C;
          /* Auto layout */
   top: 40px;
 
-  position:relative;
-  left: 605px;
-  right: 605px;
+  /*position:relative;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
   background: #0D606F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   border: 0px;
 
+}
+
+.see-more-button:hover, .see-more-button:active, .see-more-button:focus {
+ opacity: 0.75;
+}
+
+/*stories styles end*/
+
+.footer{
+  display:flex;
+ 
+
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+
+/*gap: 328px;*/
+
+position: relative;
+/*width: 1440px;
+height: 56px;
+/*left: 646px;*/
+top: 20px;
+  }
+
+.footer-title {
+
+font-family: 'Red Hat Text';
+font-size: 16px;
+font-weight: 500px;
+line-height: 21.17px;
+
+   display: flex;
+  justify-content: end;
+  align-items: center;
+  
+
+  margin-left: auto;
+  margin-right:auto;
+
+  padding-top: 19px;
+  padding-bottom: 19px;
+
+color: #FFFFFF;
+}
+
+.icons{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+gap: 20px;
+
+}
+
+.icon {
+  height: 34px;
+  width: 34px;
 }
