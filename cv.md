@@ -17,25 +17,25 @@ I want to create new and useful things and it is the main reason why I'm here.
 
 ### Skills 
 * VS Code
-* HTML5? CSS3 (Basic)
+* HTML5, CSS3 (Basic)
 * JavaScript (Basic)
 * Python (Basic)
 
 ### Code example
 **function** maxTriSum(numbers){  
-  let sum = 0;  
-  let count =0;  
-  numbers.sort(function(a,b) {return b-a});  
-  **for** (let i = 0; i < numbers.length; i++){  
-    **if** (numbers[i] != numbers[i+1] && count < 3){  
-      sum += numbers[i];  
-      count += 1;  
-      } **else**{  
-      sum += 0;  
+    let sum = 0;  
+    let count =0;  
+    numbers.sort(function(a,b) {return b-a});  
+    **for** (let i = 0; i < numbers.length; i++){  
+      **if** (numbers[i] != numbers[i+1] && count < 3){  
+        sum += numbers[i];  
+        count += 1;  
+        } **else**{  
+        sum += 0;  
+      }  
     }  
+    **return** sum;  
   }  
-  **return** sum;  
-}  
 
 ### Experience 
  Power engineer (since 2018)
