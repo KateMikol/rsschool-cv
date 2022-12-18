@@ -248,3 +248,27 @@
       font-size: 1.4rem;
     }
    /*second column ends*/
+   /*footer starts*/
+
+   footer{
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+     .rsschool__img {
+      width:100px;
+      vertical-align: middle;
+      
+     }
+     .github__img{
+      width:40px;
+     }
+    
+     .container {
+      width: 100%; /* Full width */
+      background-color: wheat;
+      border:#fffff0; 
+    }
+    
+    
+    /*footer ends*/    
