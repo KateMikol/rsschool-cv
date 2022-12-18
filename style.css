@@ -53,7 +53,7 @@
  *,*::before,*::after{
    box-sizing: inherit;
    }
-   
+
    body{
       font-family: 'Roboto','Arial', 'Verdana', 'Geneva', 'Tahoma', sans-serif;
       font-style: normal;
@@ -61,11 +61,54 @@
       margin: 0   auto;
       color:#fffff0 ;
     }
+    
+    h3{
+      display: inline-block;
+      font-size:1.5rem;
+  }
+
+  p{
+      font-size: 1.4rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  h1, h2{
+   text-align: center;
+ }
 
    .wrapper{
       max-width: 1100px;
       margin: 0 auto;
       display:flex;
+    }
+    
+    .block__subtitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+
+      height: 35px;
+      padding: 5px;
+
+      color: #08454A; 
+      background-color: #e6B656
+        
+    }
+    .column__first{
+      width:35%;
+      background-color: #08454A;
+      padding: 10px 20px;
+
+    }
+
+    .column__second{
+      width:65%;
+      margin-left:40px;
     }
 
    /*header starts*/
@@ -96,3 +139,52 @@
      }
      
      /*header ends*/
+
+     /*column first starts*/
+     .my__photo {
+  
+      display: block;
+     margin:15px auto 0;
+      width: 150px;
+    
+    }
+
+   .contact__list{
+    list-style-type:none;
+    padding-left: 20px;
+  }
+  .contact__info{
+    display:inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #fffff0;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 1.4rem;
+  }
+  .svg__icons{
+    display:inline-block;
+    vertical-align: middle;
+    height:20px;
+    width:20px;
+    margin-right:5px;
+  }
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-right: 40px; /* Add some right padding */
+    line-height: 10px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color:#08454A; /* White text color */
+  }
+  
+  .html {
+    width: 50%; 
+    background-color: #e6B656;
+  } 
+  .css {
+    width: 50%; 
+    background-color: #e6B656;
+  } 
+  .js {
+    width: 30%; 
+    background-color:#e6B656;
+  } 
+  /*column first ends*/
