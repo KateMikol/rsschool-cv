@@ -188,3 +188,63 @@
     background-color:#e6B656;
   } 
   /*column first ends*/
+
+  /*second column starts*/
+  .work__icon{
+   height: 50px ;
+   width: 50px;
+   }
+
+   .experience__block{
+     display: flex;
+     gap: 30px; 
+   }
+
+   .study__icon{
+     height: 50px;
+     width: 50px;
+     align-self: center;
+   }
+
+   .education_block{
+     display: flex;
+     gap: 30px;
+   }
+
+  
+   .green__text{
+     color:#08454A;
+   }
+
+   .language__level{
+     width:170px;
+     height: 200px;
+   }
+   .language{
+     display: flex;
+     margin-top: 10px;
+   }
+
+   .comparison{
+     display: block;
+     height: 170px;
+     
+   }
+   .lang__link{
+     display:block;
+     text-decoration: none;
+     color: #08454A;
+     margin: 10px;
+     font-size: 1.4rem;
+   }
+   .course__link{
+    text-decoration: none;    
+   font-size: 1.4rem;
+   color:#08454A;
+   }
+
+   code{
+      color:#08454A;
+      font-size: 1.4rem;
+    }
+   /*second column ends*/
